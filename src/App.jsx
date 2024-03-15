@@ -12,20 +12,20 @@ import { Route, Routes } from 'react-router-dom'
 function App() {
   return (
     <>
-    <Navbar />
-    <div className='container'>
-      <Routes>
+      <Navbar />
+      <div className='container'>
+        <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/resume" element={<Resume />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/asteroids" element={<Asteroids />} />
-        <Route path="/flappyBird" element={<FlappyBird />} />
-        <Route path="/applications" element={<Applications />} />
-        <Route path="/springboot" element={<SpringBoot />} />
-      </Routes>
-      <Footer />
-    </div>    
+          <Route path="/home" element={<Home />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/projects/asteroids" element={<Asteroids />} />
+          <Route path="/projects/flappyBird" element={<FlappyBird />} />
+          <Route path="/projects/applications" element={<Applications />} />
+          <Route path="/projects/springboot" element={<SpringBoot />} />
+        </Routes>
+        <Footer />
+      </div>
     </>
   )
 }

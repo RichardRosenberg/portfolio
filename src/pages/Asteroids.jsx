@@ -7,10 +7,10 @@ import '../styles/game.css';
 export default function Asteroids() {
   document.title = "Asteroids";
   const { unityProvider } = useUnityContext({
-    loaderUrl: "./Asteroids/Build/Asteroids.loader.js",
-    dataUrl: "./Asteroids/Build/Asteroids.data.br",
-    frameworkUrl: "./Asteroids/Build/Asteroids.framework.js.br",
-    codeUrl: "./Asteroids/Build/Asteroids.wasm.br",
+    loaderUrl: "/Asteroids/Build/Asteroids.loader.js",
+    dataUrl: "/Asteroids/Build/Asteroids.data.br",
+    frameworkUrl: "/Asteroids/Build/Asteroids.framework.js.br",
+    codeUrl: "/Asteroids/Build/Asteroids.wasm.br",
   });
   return (
     <div className='page-container'>
@@ -29,7 +29,7 @@ export default function Asteroids() {
           </p>
         </div>
         <motion.div className='project-box'>
-          <a href="Projects">
+        <a href="../projects">
             <motion.img
               src={project}
               className='game-image-box'

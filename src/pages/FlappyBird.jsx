@@ -7,10 +7,10 @@ import '../styles/game.css';
 export default function Flappy() {
   document.title = "Flappy Bird";
   const { unityProvider } = useUnityContext({
-    loaderUrl: "./Flappy/Build/Flappy.loader.js",
-    dataUrl: "./Flappy/Build/Flappy.data.br",
-    frameworkUrl: "./Flappy/Build/Flappy.framework.js.br",
-    codeUrl: "./Flappy/Build/Flappy.wasm.br",
+    loaderUrl: "/Flappy/Build/Flappy.loader.js",
+    dataUrl: "/Flappy/Build/Flappy.data.br",
+    frameworkUrl: "/Flappy/Build/Flappy.framework.js.br",
+    codeUrl: "/Flappy/Build/Flappy.wasm.br",
   });
   return (
     <div className='page-container'>
@@ -29,7 +29,7 @@ export default function Flappy() {
           </p>
         </div>
         <motion.div className='project-box'>
-          <a href="Projects">
+        <a href="../projects">
             <motion.img
               src={project}
               className='game-image-box'

@@ -42,7 +42,7 @@ export default function SpringBoot() {
                     </div>
                 </div>
                 <motion.div className='project-box'>
-                    <a href="Projects">
+                <a href="../projects">
                         <motion.img
                             src={project}
                             className='game-image-box'

@@ -4,6 +4,7 @@ import project1 from '../assets/Projects/FlappyBird.png';
 import project2 from '../assets/Projects/Asteroids.png';
 import project3 from '../assets/Projects/Applications.png';
 import project4 from '../assets/Projects/SpringBoot.png';
+import { Link } from 'react-router-dom'; 
 import '../styles/projects.css';
 
 export default function Projects() {
@@ -19,7 +20,7 @@ export default function Projects() {
             </motion.h1>
             <div className='image-link-box'>
                 <motion.div className='project-box'>
-                    <a href="FlappyBird">
+                    <Link to="/projects/flappyBird">
                         <motion.img
                             src={project1}
                             className='game-image-box'
@@ -29,7 +30,7 @@ export default function Projects() {
                             animate={{ scale: 1 }}
                             transition={{ duration: 1.5 }}
                         />
-                    </a>
+                    </Link>
                     <motion.p
                         initial={{ scale: 0.7 }}
                         animate={{ scale: 1 }}
@@ -39,7 +40,7 @@ export default function Projects() {
                     </motion.p>
                 </motion.div>
                 <motion.div className='project-box'>
-                    <a href="Asteroids">
+                    <Link to="/projects/asteroids">
                         <motion.img
                             src={project2}
                             className='game-image-box'
@@ -49,7 +50,7 @@ export default function Projects() {
                             animate={{ scale: 1 }}
                             transition={{ duration: 1.5 }}
                         />
-                    </a>
+                    </Link>
                     <motion.p
                         initial={{ scale: 0.7 }}
                         animate={{ scale: 1 }}
@@ -59,7 +60,7 @@ export default function Projects() {
                     </motion.p>
                 </motion.div>
                 <motion.div className='project-box'>
-                    <a href="Applications">
+                    <Link to="/projects/applications"> 
                         <motion.img
                             src={project3}
                             className='game-image-box'
@@ -69,7 +70,7 @@ export default function Projects() {
                             animate={{ scale: 1 }}
                             transition={{ duration: 1.5 }}
                         />
-                    </a>
+                    </Link>
                     <motion.p
                         initial={{ scale: 0.7 }}
                         animate={{ scale: 1 }}
@@ -79,7 +80,7 @@ export default function Projects() {
                     </motion.p>
                 </motion.div>
                 <motion.div className='project-box'>
-                    <a href="SpringBoot">
+                    <Link to="/projects/springboot"> 
                         <motion.img
                             src={project4}
                             className='game-image-box'
@@ -89,7 +90,7 @@ export default function Projects() {
                             animate={{ scale: 1 }}
                             transition={{ duration: 1.5 }}
                         />
-                    </a>
+                    </Link>
                     <motion.p
                         initial={{ scale: 0.7 }}
                         animate={{ scale: 1 }}
