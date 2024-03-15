@@ -1,0 +1,22 @@
+.image-link-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.project-box p{
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;   
+    text-align: center;
+}
+
+.game-image-box {
+    width: 60%;
+    height: auto;
+    margin-left: 13rem;
+}
+
+.project-text {
+margin: 2rem;
+}
+

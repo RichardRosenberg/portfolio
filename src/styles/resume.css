@@ -1,0 +1,45 @@
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main-content {
+    width: 75%;
+}
+
+.image-box-resume {
+    position: absolute;
+    top: -12rem;
+    left: -30rem;
+}
+
+.bio-box p {
+    margin-bottom: 2em; 
+}
+
+@media (max-width: 1400px) {
+    .image-box-resume {
+        display: none;
+    }
+}
+
+.bio-box {
+    width: 60%;
+   margin-left: 33%;
+}
+
+.bio-box h2 {
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+.bio-box p {
+    margin-bottom: 1rem;
+}
+
+.image-box {
+    position: absolute;
+    top: 5rem;
+    left: -35rem;
+}
