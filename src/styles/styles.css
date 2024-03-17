@@ -14,7 +14,7 @@ h1 {
     font-size: 5rem;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-left: 5rem;
+    margin-right: 2rem;
 }
 
 .page-container {
@@ -22,9 +22,15 @@ h1 {
     flex-direction: column;
     align-items: center;
     min-height: 60rem;
-    background-image: url('../assets/background.jpg');
+    background-image: url('../assets/background.png');
     background-size: 100% 100%;
     background-position: center;
+}
+
+.bio-box {
+    align-items: center;
+    width: 50%;
+    margin-left: 10rem;
 }
 
 .nav {
@@ -32,7 +38,6 @@ h1 {
     color: white;
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
     gap: 2rem;
     padding: 2rem;
     width: 100%;
@@ -53,7 +58,6 @@ h1 {
     display: flex;
     width: 40%;
     gap: 1rem;
-    font-size: 1.3rem;
 }
 
 .nav a {
@@ -63,6 +67,8 @@ h1 {
     display: flex;
     align-items: center;
     padding: .25rem;
+    font-size: 2rem;
+    width: 100%;
 }
 
 .nav li.active {
@@ -93,131 +99,4 @@ h1 {
 .jac {
     max-width: 55%;
     margin-left: 5rem;
-}
-
-@media (max-width: 1440px){
-    .site-logo img {
-        margin-top: 2.5%;
-    }
-    
-}
-
-@media (max-width: 1200px) {
-    .nav {
-        padding: 1rem;
-        gap: 1rem;
-    }
-
-    .site-logo img {
-        margin-top: 3%;
-        width: 100%;
-    }
-
-    .nav ul {
-        width: 50%;
-    }
-}
-
-@media (max-width: 1000px) {
-    .page-container {
-        width: 100%;
-    }
-
-    .nav {
-        padding: 0.5rem;
-        gap: 0.5rem;
-    }
-
-    .site-logo img {
-        margin-top: 3%;
-        width: 70%;
-    }
-
-    .nav ul {
-        width: 60%;
-        font-size: 1rem;
-    }
-}
-
-@media (max-width: 650px) {
-    .nav {
-        padding: 0.25rem;
-        gap: 0.25rem;
-    }
-
-    .site-logo img {
-        margin-top: 8%;
-        width: 90%;
-    }
-
-    .nav ul {
-        width: 70%;
-        font-size: 0.9rem;
-    }
-
-    h1 {
-        font-size: 2rem;
-    }
-
-    h2,
-    h3 {
-        font-size: 1.1rem;
-    }
-
-    p {
-        font-size: 0.8rem;
-    }
-
-    ul li {
-        font-size: 0.7rem;
-    }
-}
-
-@media (max-width: 580px) {
-    .site-logo img {
-        margin-top: 7%;
-        width: 70%;
-    }
-
-
-}
-
-@media (max-width: 530px) {
-    .nav {
-        padding: 0.2rem;
-        gap: 0.2rem;
-    }
-
-    .site-logo img {
-        width: 90%;
-    }
-
-    .nav ul {
-        width: 80%;
-        font-size: 0.8rem;
-    }
-
-    h3 {
-        font-size: .7rem;
-    }
-
-    p {
-        font-size: .6rem;
-    }
-
-    .site-logo img {
-        display: none;
-    }
-
-    .jac {
-        display: none;
-    }
-    .nav {
-        padding: 0rem;
-        gap: 0rem;
-    }
-
-    .nav ul {
-        width: 100%;
-    }
 }

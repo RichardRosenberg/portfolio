@@ -1,0 +1,309 @@
+@media (max-width: 2300px) {
+
+    .site-logo img {
+        width: 90%;
+        margin-top: 2%;
+    }
+
+    .nav a {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 1900px) {
+
+    .nav a {
+        font-size: 1.4rem;
+    }
+
+    h1 {
+        margin-right: 0;
+        margin-left: 3rem;
+    }
+}
+
+@media (max-width: 1700px) {
+
+    .site-logo img {
+        width: 80%;
+    }
+
+    .nav a {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 1520px) {
+
+    .site-logo img {
+        width: 70%;
+    }
+
+    .nav a {
+        font-size: 1rem;
+        margin-left: 0;
+        margin-right: 2rem;
+    }
+
+    .image-box-home img {
+        max-width: 50%;
+        height: auto;
+    }
+
+    h1 {
+        margin-left: 7rem;
+    }
+
+    .image-box-home {
+        top: 29rem;
+    }
+}
+
+@media (max-width: 1350px) {
+
+    .nav a {
+        font-size: 0.9rem;
+    }
+
+    .game-image-box {
+        width: 50%;
+    }
+
+    .project-text {
+        width: 50%;
+    }
+
+    .image-box-home {
+        top: 27rem;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .nav a {
+        font-size: 0.9rem;
+        padding: 0;
+    }
+
+    .nav {
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .nav ul {
+        gap: 0;
+    }
+
+    .project-page-box p {
+        font-size: 1rem;
+    }
+
+    .image-box-home {
+        top: 25rem;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .image-box-home img,
+    .jac {
+        display: none;
+    }
+
+    .nav a {
+        font-size: 0.8rem;
+    }
+
+    .nav {
+        gap: 0.5rem;
+        padding: 0.7rem;
+    }
+
+    h1 {
+        margin-left: 10rem;
+    }
+
+    .game-image-box {
+        width: 40%;
+    }
+
+    .project-text {
+        width: 50%;
+    }
+
+    .project-page-box p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 870px) {
+    .site-logo img {
+        display: none;
+    }
+
+    .nav {
+        display: block;
+    }
+
+    .nav ul {
+        margin-left: 17rem;
+    }
+
+    .nav a {
+        margin: 0, 1rem;
+    }
+
+    .page-container {
+        min-height: 0;
+    }
+
+    h1 {
+        font-size: 5rem;
+        margin-left: 0;
+        margin-bottom: 3rem;
+    }
+
+    .bio-box {
+        width: 80%;
+        margin-right: 8rem;
+    }
+
+   .bio-box h2 {
+        font-size: 1.3rem;
+    }
+
+    .bio-box p {
+        font-size: 0.8rem;
+    }
+
+    .bio-box h3 {
+        font-size: 1rem;
+    }
+
+    .game-image-box {
+        width: 60%;
+        margin-left: 10rem;
+    }
+
+    .project-text {
+        display:none;
+    }
+
+    .project-page-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bottom-game-text p {
+        font-size: 1rem;
+    }
+
+    .back-to-projects {
+        margin-right: 10rem;
+        width: 70%;
+    }
+
+    .project-box p {
+        font-size: 1rem;
+    }
+
+    .project-report-box {
+        margin-right: 7rem;
+    }
+}
+
+@media (max-width: 650px) {
+    .nav ul {
+        margin-left: 8rem;
+    }
+
+    .footer p {
+        padding: 0.2rem;
+    }
+
+    .game-image-box {
+        width: 70%;
+        margin-left: 6rem;
+    }
+
+    .back-to-projects {
+        width: 70%;
+    }
+}
+
+
+@media (max-width: 550px) {
+    .nav ul {
+        margin-left: 5rem;
+    }
+
+    .game-image-box {
+        width: 60%;
+        margin-left: 7.5rem;
+    }
+
+    
+    .bottom-game-text p {
+        font-size: 0.7rem;
+    }
+
+    .back-to-projects {
+        margin-right: 7rem;
+        width: 50%;
+    }
+
+    .project-box p {
+        font-size: 0.8rem;
+    }
+
+    h1 {
+        font-size: 2.4rem;
+        margin-left: 2rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .nav ul {
+        margin-left: 2.6rem;
+    }
+
+    .left-footer {
+        display: none;
+    }
+
+    .right-footer {
+        margin-right: 5rem;
+        font-size: 0.7rem;
+    }
+
+    .bio-box h2 {
+        font-size: 1rem;
+    }
+
+    .bio-box h3 {
+        font-size: 0.8rem;
+    }
+
+    .bio-box p {
+        font-size: 0.6rem;
+    }
+    
+    .game-image-box {
+        width: 60%;
+        margin-left: 5.5rem;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .nav ul {
+        margin-left: 0;
+
+    }
+
+    .nav a {
+        gap: 0;
+        margin: 0.5rem;
+    }
+}

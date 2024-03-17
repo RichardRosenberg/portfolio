@@ -1,13 +1,8 @@
-.image-link-box{
+.project-page-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
-}
-
-.project-box p{
-    font-size: 1.2rem;
-    font-family: 'Courier New', Courier, monospace;   
-    text-align: center;
+    grid-gap: 1rem;
+    align-items: center;
 }
 
 .game-image-box {
@@ -16,7 +11,47 @@
     margin-left: 13rem;
 }
 
-.project-text {
-margin: 2rem;
+.project-page-container p {
+    font-size: 1.2rem;
+    margin-left: 13rem;
+    font-weight: 1000;
 }
 
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.unity-container {
+    width: 85%;
+    margin-bottom: 1rem;
+}
+
+.bottom-game-text {
+    width: 75%;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 1000;
+}
+
+.project-report-box {
+    align-items: center;
+    width: 50%;
+    margin-left: 13rem;
+}
+
+.image-box-app {
+    width: 85%;
+}
+
+.project-box p {
+    font-size: 1.3rem;
+    font-weight: 1000;
+    width: 90%;
+}
+
+.back-to-projects {
+    margin-right: 15rem;
+}

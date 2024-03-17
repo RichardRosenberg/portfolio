@@ -1,60 +1,20 @@
-.image-text-home {
-    font-size: 5rem;
-    margin-bottom: 1rem;
-    width: 65%;
-    min-height: 60rem;
-    
+.image-box-home {
+    position: absolute;
+    left: 2rem;
+    top: 31rem;
 }
 
-.image-text-home div {
-    font-family: serif;
-    color: #555555;
-    text-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 1);
-    -webkit-text-stroke: .14rem black;
-    margin-top: 17rem;
-}
-
-.main-content {
-    width: 75%;
-}
-
-.image-box-about {
-    position: absolute; 
-    top: 85rem;
-    left: 5rem;
-}
-
-.image-box-about img{
-   width: 30%;
-}
-
-.bio-box {
-    width: 60%;
-    padding: 1rem;
-    box-sizing: border-box;
-    margin: 1rem auto;
-    font-size: 1.3rem;
-    color:black;
-    font-weight: 900;
+.image-box-home img {
+    max-width: 70%;
+    height: auto; 
 }
 
 .bio-box h2 {
-    font-size: 2rem;
-    margin-top: 0;
+    font-size: 1.7rem;
+    font-weight: 900;
 }
 
 .bio-box p {
-    margin-bottom: 1rem;
-}
-
-.image-box-about {
-    position: absolute;
-    top:90rem;
-    left: 5rem;
-}
-
-@media (max-width: 1400px) {
-    .image-box-about {
-        display: none;
-    }
+    font-size: 1.3rem;
+    font-weight: 300;
 }
