@@ -44,6 +44,7 @@
 
 .image-box-app {
     width: 85%;
+    max-height: auto;
 }
 
 .project-box p {
@@ -52,6 +53,6 @@
     width: 90%;
 }
 
-.back-to-projects {
-    margin-right: 15rem;
+.back-to-projects2 {
+    margin-right: 10rem;
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import project1 from '../assets/Projects/Flappy.png';
 import project2 from '../assets/Projects/Asteroids.png';
-import project3 from '../assets/Projects/Apps/wpfDb.png';
+import project3 from '../assets/Projects/Apps/IdentityUserExtend.png';
 import project4 from '../assets/Projects/MovieDB/movieList.png';
 import { Link } from 'react-router-dom'; 
 import '../styles/projects.css';

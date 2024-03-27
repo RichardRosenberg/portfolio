@@ -28,7 +28,7 @@ export default function Flappy() {
             Developing Flappy Bird in Unity using C# was a hands-on learning experience that strengthened my grasp of fundamental game development principles. This project involved tackling challenges such as user input, physics implementation, and game state management, contributing to a solid foundation in Unity and C#. Through debugging and optimizing code for better performance, I learned the importance of efficient programming practices.
           </p>
         </div>
-        <motion.div className='back-to-projects'>
+        <motion.div className='back-to-projects2'>
         <a href="#/projects">
             <motion.img
               src={project}

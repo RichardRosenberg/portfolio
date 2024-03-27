@@ -27,7 +27,7 @@ export default function Asteroids() {
             Designing the game involved navigating challenges in object pooling, asteroid spawning, and collision detection, enhancing my proficiency in C# programming. Working on the project also sharpened my problem-solving skills, particularly in managing the complexity of asteroid movements and ensuring seamless gameplay. Additionally, implementing features like scoring and game over mechanics broadened my understanding of game state management.
           </p>
         </div>
-        <motion.div className='back-to-projects'>
+        <motion.div className='back-to-projects2'>
           <a href="#/projects">
             <motion.img
               src={project}
